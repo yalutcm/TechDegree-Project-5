@@ -1,0 +1,23 @@
+input:hover {
+    background-image: radial-gradient( circle 400px at 6.8% 8.3%,  rgba(255,244,169,1) 0%, rgba(255,244,234,1) 100.2% );
+}
+
+input[type="search"] {
+    font-size: .8rem;
+    color: #E67F0D;
+    font-weight: 700;
+}
+
+/* Input Border Styles */
+input#search {
+    border: 2px solid #939196;
+    border-radius: 5px;
+    box-shadow: hsl(216, 93%, 5%) 0px 20px 30px -10px;
+}
+
+input#search::placeholder {
+    text-align: right;
+    font-size: .6rem;
+    font-style: italic;
+    font-weight: bold;
+}
