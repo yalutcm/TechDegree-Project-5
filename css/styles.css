@@ -1,12 +1,13 @@
-/* Base Styles */
-
+/* ==== Base Styles ==== */
 * {
 
     box-sizing: border-box;
 
 }
 
+/* center page/ set content size/ set background color*/
 body {
+
     margin: 0 auto;
     text-align: center;
     width: 100%;
@@ -14,9 +15,9 @@ body {
     background-color: #222;
 }
 
-/* Search Field Styles */
+/* ==== SearchField Styles ==== */
 
-/* Sizing */
+/* adjust sizing and positioning */
 #search {
 
     margin-top: 2.8rem;
@@ -25,14 +26,18 @@ body {
     margin-bottom: 2.8rem;
 }
 
-input:hover {
-    background: #222;
-}
-
+/* change search field text color and font size */
 input[type="search"] {
+
     font-size: .8rem;
     color: #FDF0D5;
     font-weight: 700;
+}
+
+/* change search field color when mouse over */
+input:hover {
+    
+    background: #222;
 }
 
 /* Input Border Styles */
@@ -43,29 +48,38 @@ input#search {
     box-shadow: #a7bdd4 0px 20px 30px -10px;
 }
 
+/* Shift placeholder right & text styles */
 input#search::placeholder {
+
     text-align: right;
     font-size: .6rem;
     font-style: italic;
     font-weight: bold;
 }
 
-/* Grid Styles */
+/* ==== Grid Styles ==== */
 .gallery {
     display: grid;
     grid-template-columns: repeat(4, 200px);
     justify-content: center;
     grid-gap: .6rem;
+}
+
+
+.gstyles {
 
     border-radius: 4%;
     box-shadow: #F0544F 0px 8px 18px -10px;
     padding-bottom: 2%;
     margin: 4%;
 
+    box-shadow:#A7BDD4 0px 8px 18px -10px;
+}
+
+img {
+
     border-radius: 4%;
     box-shadow:#A7BDD4 0px 8px 18px -10px;
 }
 
-a  {
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-}
+
