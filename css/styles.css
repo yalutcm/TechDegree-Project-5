@@ -60,7 +60,7 @@ input#search::placeholder {
 /* ==== Grid Styles ==== */
 .gallery {
     display: grid;
-    grid-template-columns: repeat(4, 200px);
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     justify-content: center;
     grid-gap: .6rem;
 }
